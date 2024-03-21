@@ -1,15 +1,33 @@
-# Module 3
+# Module 3 - P3 Employ Matplotlib, pyplot & Engage
 ## Name: Curtis Rogers
 
-## Module Objectives
+## Objectives
+This exercise is used to reinforce key Python visualization skills. It offers practice with web-enabled Jupyter notebooks and lays some important foundations for presenting information obtained from mining the web and processing language.  We'll use the MatplotlibLinks to an external site. library. The Matplotlib library includes the pyplot module which provides a simple interface for building charts. All this code is free - the more you explore, the more you can do. Your skills are limited only by the time you wish to invest. 
 
-At the end of this module students will be able to:
+Anytime we use an external library (something not included in the Python Standard Library) like Matplotlib,  we'll need to:
 
-Visualize common types of data with Matplotlib. (CO2, CO6)
+install it into our active virtual environment and
+use an import statement in our Python. 
+Spelling and capitalization matters - to use a library, you might need to first search for the install commands and then find the typical way it is imported into Python. The typical approach is to:
+
+Create a virtual environment
+Activate the virtual environment
+Install into the active virtual environment (e.g. `python -m pip install matplotlib`)
+In your Python, import it (e.g. `import matplotlib.pyplot as plt`)
  
-Explain conclusions drawn from visualizations. (CO6)
- 
-Describe how to embed advanced visualizations in Notebooks, such as those in D3.js. (CO1, CO3, CO5, CO6)
+
+## Assignment Overview
+Here's a short little video showing how to do the assignments. https://use.vg/f5lawN
+
+It shows how to:
+
+get the starter repo into your GitHub account. The video uses GitHub classroom, some sections will just start with a template (like forking, but disconnects from the original starter repo). 
+clone down your repo to your local machine,
+start up Jupyter lab (or Jupyter Notebook),
+make edits to Markdown cells and Python code cells
+add and commit your changes using Git
+push your commit up to the GitHub repo.
+export your notebook as HTML (a web page) for submission using the menu
 
 
 ## Matplotlib and pyplot
